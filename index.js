@@ -8,7 +8,7 @@ const contactRoutes = require('./routes/contact.route');
 dotenv.config();
 
 const app = express();
-const port = process.env.PORT || 8000;
+const PORT = process.env.PORT || 8000;
 
 const corsOptions = {
     origin: 'https://amplifyed-co.vercel.app', // Sirf is URL se request aane de
