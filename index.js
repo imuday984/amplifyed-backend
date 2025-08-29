@@ -35,6 +35,6 @@ app.get('/', (req, res) => {
 
 app.use('/api/contact', contactRoutes);
 
-app.listen(port, () => {
-    console.log(`Server is running on http://localhost:${port}`);
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`Server chalu ho gaya hai port ${PORT} pe, public! Ab bouncer ki bhi sunega.`);
 });
